@@ -84,4 +84,15 @@ main section.products-show {
   }
 }
 
+.image-table {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.order-show {
+  max-width: 60%;
+  max-height: 60%;
+}
+
+
 
