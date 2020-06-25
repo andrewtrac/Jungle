@@ -2,23 +2,39 @@ Rails.application.routes.draw do
 
   root to: 'products#index'
 
+  #Products 
   resources :products, only: [:index, :show]
   resources :categories, only: [:show]
 
+  #Cart
   resource :cart, only: [:show] do
     post   :add_item
     post   :remove_item
   end
 
+  #Orders
   resources :orders, only: [:create, :show]
 
+  #Admin page
   namespace :admin do
     root to: 'dashboard#show'
     resources :products, except: [:edit, :update, :show]
     resources :categories, except: [:edit, :destroy, :update, :show]
   end
 
+  #This is for the about page
   get 'about/' => 'about#show'
+
+  #Sign Up/Login
+  
+  get '/login' => 'sessions#new'
+  post '/login' => 'sessions#create'
+  get '/logout' => 'sessions#destroy'
+  
+  get '/signup' => 'users#new'
+  post '/users' => 'users#create'
+
+  
 
 
   # The priority is based upon order of creation: first created -> highest priority.
