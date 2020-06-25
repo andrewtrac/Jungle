@@ -1,2 +1,20 @@
-<h1>Admin::Dashboard#show</h1>
-<p>Find me in app/views/admin/dashboard/show.html.erb</p>
+<h1>Dashboard metrics:</h1>
+<table class="table table-striped">
+<thead>
+<tr>
+<th scope="col">Objects Counted</th>
+<th scope="col">Amount</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Number of products</td>
+<td><%= @product_count %></td>
+</tr>
+<tr>
+<td>Number of categories</td>
+<td><%= @category_count %></td>
+</tr>
+</tbody>
+</table>
+<%= button_to 'Product Admin', "admin/products", method: "get" %>
