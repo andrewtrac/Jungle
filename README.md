@@ -1,6 +1,23 @@
-# Jungle
+# Jungle Project
+
+Date: July 1, 2020  
+
+
+Version: 1.0.0.  
+By: Andrew Trac  
+
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+
+
+## Final Product Screenshots
+
+
+!["Screenshot"](https://github.com/AT1787/scheduler/blob/master/public/images/Screen%20Shot%202020-06-18%20at%208.44.25%20PM.png)  
+
+!["Screenshot"](https://github.com/AT1787/scheduler/blob/master/public/images/Screen%20Shot%202020-06-18%20at%208.44.25%20PM.png?raw=true)  
+
+!["Screenshot"](https://github.com/AT1787/scheduler/blob/master/public/images/statusScreenShot.png?raw=true)  
 
 
 ## Setup
