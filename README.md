@@ -13,11 +13,11 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 ## Final Product Screenshots
 
 
-!["Screenshot"](https://github.com/AT1787/scheduler/blob/master/public/images/Screen%20Shot%202020-06-18%20at%208.44.25%20PM.png)  
+!["Screenshot"](https://github.com/AT1787/Jungle/blob/master/public/images/Screen%20Shot%202020-07-01%20at%201.26.31%20PM.png)  
 
-!["Screenshot"](https://github.com/AT1787/scheduler/blob/master/public/images/Screen%20Shot%202020-06-18%20at%208.44.25%20PM.png?raw=true)  
+!["Screenshot"](https://github.com/AT1787/Jungle/blob/master/public/images/Screen%20Shot%202020-07-01%20at%201.26.49%20PM.png)  
 
-!["Screenshot"](https://github.com/AT1787/scheduler/blob/master/public/images/statusScreenShot.png?raw=true)  
+!["Screenshot"](https://github.com/AT1787/Jungle/blob/master/public/images/Screen%20Shot%202020-07-01%20at%201.27.02%20PM.png)  
 
 
 ## Setup
